@@ -1,8 +1,9 @@
 pipeline
 {
 agent any
+stages
 {
-stages('clone')
+stage('clone')
 {
 steps{
 git 'https://github.com/8897140197/demo_rep.git'
